@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+
+        <div class=" container d-flex justify-content-center">
+
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/Vmd0NK8/logo.jpg" alt="logo" border="0"></a>
+        </div>
+
+
+
+        <div class="container d-flex justify-content-center">
+            <div class="navbar-header">
+                <ul class="nav navbar">
+                    <li class="px-3">@Html.ActionLink("Inicio", "Index", "Home")</li>
+                    <li class="px-3">@Html.ActionLink("Nosotros", "About", "Home")</li>
+                    <li class="px-3">@Html.ActionLink("Galeria", "Contact", "Home")</li>
+                    <li class="px-3">@Html.ActionLink("Blog", "Contact", "Home")</li>
+                    <li class="px-3">@Html.ActionLink("Contactos", "Contact", "Home")</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <div class="container-body">
+
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/8bDmm3m/icon-facebook.jpg" alt="icon-facebook" border="0"></a>
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/D8pjQkq/icon-twitter.jpg" alt="icon-twitter" border="0"></a>
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/7N6n7wM/icon-pinterest.jpg" alt="icon-pinterest" border="0"></a>
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/rysJCgB/icon-googleplus.jpg" alt="icon-googleplus" border="0"></a>
+
+                <p>Derechos- Reservados- Mustacchig</p>
+
+            </div>
+            
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required:=False)
+</body>
+</html>
+
+
+
+
+
+
+div class="container d-flex justify-content-center">
+
+
+    <a href="https://ibb.co/0t34906"><img src="https://i.ibb.co/X8T05nK/the-beacon.jpg" alt="the-beacon" border="0"></a>
+
+</div>
+
+<br />
+<br />
+
+
+
+<div class=" container d-flex justify-content-start">
+
+
+    <a href="https://imgbb.com/"> <img src="https://i.ibb.co/kM89HC6/the-father.jpg" align="left" alt="the-father" border="0"></a>
+
+
+
+
+</div>
+
+<h2 class="text-left">The Father</h2>
+
+
+
+<div class="container d-flex justify-content-center">
+
+
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/BTpKWw0/the-actor.jpg" alt="the-actor" border="0"></a>
+
+
+</div>
+
+
+<h2 class="text-center">The Actor</h2>
+
+
+<div class="container d-flex justify-content-left">
+
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/3YGTz1L/the-nerd.jpg" alt="the-nerd" border="0"></a>
+
+</div>
+
+<h2 class="text-left">The Nerd</h2> 
+
+
+
+
